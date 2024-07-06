@@ -22,6 +22,7 @@ Desenvolvida em Node.js usando Express para criar, listar, atualizar e excluir f
 - GET http://localhost:3000/film/{id} Lista um filme conforme o ID enviado por parâmetro na URI
 - PUT http://localhost:3000/film/{id} Altera um filme conforme o ID enviado por parâmetro na URI
 - DELETE http://localhost:3000/film/{id} Deleta um filme conforme o ID enviado por parâmetro na URI
+- Para obter o {ID} do filme basta acessar a rota de listagem dos filmes e a API irá retornar o ID no json de resposta.
 
 #### Exemplo de body JSON para os endpoints POST e PUT
 
