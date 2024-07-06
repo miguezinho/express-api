@@ -13,7 +13,7 @@ Desenvolvida em Node.js usando Express para criar, listar, atualizar e excluir f
    ```bash
    docker-compose up -d
 
-2. Rodar o comando acima instalará todas as dependências e iniciará o projeto para rodar por padrão na porta 3000
+2. Rodar o comando acima instalará todas as dependências e iniciará o projeto para rodar por padrão na porta 3000.
    Acesse em http://localhost:3000
 
 # Rotas/Endpoints
