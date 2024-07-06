@@ -16,14 +16,14 @@ Desenvolvida em Node.js usando Express para criar, listar, atualizar e excluir f
 2. Rodar o comando acima instalará todas as dependências e iniciará o projeto para rodar por padrão na porta 3000.
    Acesse em http://localhost:3000
 
-# Rotas/Endpoints
+## Rotas/Endpoints
 - POST http://localhost:3000/film Cria um novo filme
 - GET http://localhost:3000/film Lista todos os filmes
 - GET http://localhost:3000/film/{id} Lista um filme conforme o ID enviado por parâmetro na URI
 - PUT http://localhost:3000/film/{id} Altera um filme
 - DELETE http://localhost:3000/film/{id} Deleta um filme
 
-### Exemplo de body JSON para os endpoints POST e PUT
+#### Exemplo de body JSON para os endpoints POST e PUT
 
 ```bash
 {
