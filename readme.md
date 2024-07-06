@@ -20,8 +20,8 @@ Desenvolvida em Node.js usando Express para criar, listar, atualizar e excluir f
 - POST http://localhost:3000/film Cria um novo filme
 - GET http://localhost:3000/film Lista todos os filmes
 - GET http://localhost:3000/film/{id} Lista um filme conforme o ID enviado por parâmetro na URI
-- PUT http://localhost:3000/film/{id} Altera um filme
-- DELETE http://localhost:3000/film/{id} Deleta um filme
+- PUT http://localhost:3000/film/{id} Altera um filme conforme o ID enviado por parâmetro na URI
+- DELETE http://localhost:3000/film/{id} Deleta um filme conforme o ID enviado por parâmetro na URI
 
 #### Exemplo de body JSON para os endpoints POST e PUT
 
